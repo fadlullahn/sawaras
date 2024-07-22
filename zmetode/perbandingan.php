@@ -78,6 +78,9 @@ arsort($preference_values);
             <div class="sm:flex-auto">
                 <h1 class="font-bold text-xl leading-6 text-gray-900">1. Perangkingan SAW</h1>
             </div>
+            <div class="mt-4 sm:ml-16 sm:mt-0 sm:flex-none">
+                <a href="print_r_saw.php" target="_blank" class="block rounded-md bg-indigo-600 px-3 py-2 text-center font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Print, PDF & EXCEL</a>
+            </div>
         </div>
         <div class="mt-8 flow-root">
             <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -209,6 +212,9 @@ arsort($preference_values);
         <div class="sm:flex sm:items-center">
             <div class="sm:flex-auto">
                 <h1 class="font-bold text-xl leading-6 text-gray-900">2. Perangkingan ARAS</h1>
+            </div>
+            <div class="mt-4 sm:ml-16 sm:mt-0 sm:flex-none">
+                <a href="print_r_aras.php" target="_blank" class="block rounded-md bg-indigo-600 px-3 py-2 text-center font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Print, PDF & EXCEL</a>
             </div>
         </div>
         <div class="mt-8 flow-root">

@@ -124,14 +124,21 @@ if ($_SESSION['level'] == "Admin") {
 }
 ?>
 
-<div class="bg-white px-6 py-32 lg:px-8">
-    <p class="text-xl font-bold leading-7">Langkah Langkah</p>
-    <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-        <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Pendaftaran</h1>
-        <div class="mt-6 max-w-2xl">
-            <p>1. Lengkapi indentitas diri anda di halaman profile.<br>
-                2. Upload dokumen yang dibutuhkan.<br>3. Tunggu proses validasi.
-            </p>
+<?php
+if ($_SESSION['level'] == "Mahasiswa") {
+?>
+
+    <div class="bg-white px-6 py-32 lg:px-8">
+        <p class="text-xl font-bold leading-7">Langkah Langkah</p>
+        <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
+            <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Pendaftaran</h1>
+            <div class="mt-6 max-w-2xl">
+                <p>1. Lengkapi indentitas diri anda di halaman profile.<br>
+                    2. Upload dokumen yang dibutuhkan.<br>3. Tunggu proses validasi.
+                </p>
+            </div>
         </div>
     </div>
-</div>
+<?php
+}
+?>

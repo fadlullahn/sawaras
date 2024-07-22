@@ -291,6 +291,10 @@ $userlogin = $_SESSION['username'];
                             if ($action == "") {
                                 include "zmetode/perbandingan.php";
                             }
+                        } elseif ($page == "print") {
+                            if ($action == "") {
+                                include "./print.php";
+                            }
                         }
                         // END METODE
                         else {

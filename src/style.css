@@ -692,10 +692,6 @@ video {
   z-index: 40;
 }
 
-.col-auto {
-  grid-column: auto;
-}
-
 .float-start {
   float: inline-start;
 }
@@ -781,16 +777,8 @@ video {
   margin-right: auto;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .ml-2 {
   margin-left: 0.5rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
 }
 
 .ml-4 {
@@ -932,10 +920,6 @@ video {
   height: 4rem;
 }
 
-.h-4 {
-  height: 1rem;
-}
-
 .h-5 {
   height: 1.25rem;
 }
@@ -962,10 +946,6 @@ video {
 
 .w-12 {
   width: 3rem;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .w-5 {
@@ -1372,10 +1352,6 @@ video {
   grid-auto-flow: column dense;
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -1562,14 +1538,6 @@ video {
 
 .justify-items-stretch {
   justify-items: stretch;
-}
-
-.gap-3 {
-  gap: 0.75rem;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .gap-x-2 {
@@ -2252,10 +2220,6 @@ video {
   background-origin: content-box;
 }
 
-.fill-\[\#24292F\] {
-  fill: #24292F;
-}
-
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -2396,10 +2360,6 @@ video {
 
 .pr-4 {
   padding-right: 1rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
 }
 
 .text-left {
@@ -2630,19 +2590,9 @@ video {
   color: rgb(79 70 229 / var(--tw-text-opacity));
 }
 
-.text-teal-800 {
-  --tw-text-opacity: 1;
-  color: rgb(17 94 89 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-teal-400 {
-  --tw-text-opacity: 1;
-  color: rgb(45 212 191 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -3087,11 +3037,6 @@ video {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
-.hover\:bg-gray-50:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-gray-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
@@ -3109,11 +3054,6 @@ video {
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
-.hover\:text-indigo-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(99 102 241 / var(--tw-text-opacity));
 }
 
 .hover\:text-indigo-900:hover {
@@ -3179,10 +3119,6 @@ video {
 
 .focus-visible\:outline-indigo-600:focus-visible {
   outline-color: #4f46e5;
-}
-
-.focus-visible\:ring-transparent:focus-visible {
-  --tw-ring-color: transparent;
 }
 
 @media (min-width: 640px) {
